@@ -81,6 +81,24 @@ a:focus {
   margin-bottom: 28px;
 }
 
+.contact-bar {
+  padding: 14px 18px;
+  background: var(--surface-bg);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+
+.contact-line {
+  margin: 6px 0;
+  color: var(--text-secondary);
+  font-size: 1.4rem;
+}
+
+.contact-line a {
+  color: var(--accent);
+}
+
 .hero-content {
   display: grid;
   grid-template-columns: 1.8fr 1fr;

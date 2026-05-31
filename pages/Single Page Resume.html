@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syed Zaki Reza | Product Manager</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --bg-page: #fafafa;
@@ -21,7 +24,9 @@
             --shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
         }
 
-        * { box-sizing: border-box; }
+        * {
+            box-sizing: border-box;
+        }
 
         body {
             background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
@@ -39,10 +44,11 @@
 
         .resume-a4 {
             width: 210mm;
-            height: 297mm; /* strict A4 */
+            height: 297mm;
+            /* strict A4 */
             background: var(--bg-page);
             border-radius: 12px;
-            box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
             display: flex;
             overflow: hidden;
             position: relative;
@@ -55,7 +61,9 @@
         .resume-a4::before {
             content: "";
             position: absolute;
-            top: 6px; left: 6px; right: 6px;
+            top: 6px;
+            left: 6px;
+            right: 6px;
             height: 4px;
             background: linear-gradient(90deg, var(--accent), #a855f7, #06b6d4);
             opacity: 0.9;
@@ -89,10 +97,13 @@
         }
 
         /* --- TYPOGRAPHY --- */
-        h1, h2, h3, h4 { 
-            font-family: 'Montserrat', sans-serif; 
-            margin: 0; 
-            font-weight: 600; 
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            font-weight: 600;
         }
 
         .header-name {
@@ -396,6 +407,7 @@
                 size: A4 portrait;
                 margin: 0;
             }
+
             body {
                 background: none;
                 padding: 0;
@@ -403,6 +415,7 @@
                 width: 210mm;
                 height: 297mm;
             }
+
             .resume-a4 {
                 box-shadow: none;
                 width: 210mm;
@@ -413,229 +426,249 @@
                 border: none;
                 overflow: hidden;
             }
+
             .resume-a4::before {
                 border-radius: 0;
-                top: 0; left: 0; right: 0;
+                top: 0;
+                left: 0;
+                right: 0;
             }
         }
     </style>
 </head>
+
 <body>
 
-<div class="resume-a4">
-    <!-- LEFT COLUMN -->
-    <div class="col-left">
-        <img src="../src/img/profile picture.jpg" alt="Syed Zaki Reza" class="profile-photo">
-        <div class="header-name">
-            <h1>SYED ZAKI REZA</h1>
-            <div class="title">Product Manager</div>
-        </div>
+    <div class="resume-a4">
+        <!-- LEFT COLUMN -->
+        <div class="col-left">
+            <img src="../src/img/profile picture.jpg" alt="Syed Zaki Reza" class="profile-photo">
+            <div class="header-name">
+                <h1>SYED ZAKI REZA</h1>
+                <div class="title">Product Manager</div>
+            </div>
 
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-id-card"></i> Contact</h2>
-            <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:syed.zaki.reza@gmail.com">syed.zaki.reza@gmail.com</a></div>
-            <div class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:syed.zaki.reza@ieee.org">syed.zaki.reza@ieee.org</a></div>
-            <div class="contact-item"><i class="fas fa-phone-alt"></i> +880 1719 768576</div>
-            <div class="contact-item"><i class="fas fa-phone"></i> +880 1521 437784</div>
-            <div class="contact-item"><i class="fas fa-map-marker-alt"></i> 27/A, Hussaini Dalan Rd, Dhaka</div>
-            <div class="contact-item"><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/syed-zaki-reza" target="_blank">linkedin.com/in/syed-zaki-reza</a></div>
-            <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/syed-zaki-reza" target="_blank">github.com/syed-zaki-reza</a></div>
-        </div>
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-id-card"></i> Contact</h2>
+                <div class="contact-item"><i class="fas fa-envelope"></i> <a
+                        href="mailto:syed.zaki.reza@gmail.com">syed.zaki.reza@gmail.com</a></div>
+                <div class="contact-item"><i class="fas fa-envelope"></i> <a
+                        href="mailto:syed.zaki.reza@ieee.org">syed.zaki.reza@ieee.org</a></div>
+                <div class="contact-item"><i class="fas fa-phone-alt"></i> +880 1719 768576</div>
+                <div class="contact-item"><i class="fas fa-phone"></i> +880 1521 437784</div>
+                <div class="contact-item"><i class="fas fa-map-marker-alt"></i>Dhaka, Bangladesh</div>
+                <div class="contact-item"><i class="fab fa-linkedin"></i> <a
+                        href="https://linkedin.com/in/syed-zaki-reza" target="_blank">linkedin.com/in/syed-zaki-reza</a>
+                </div>
+                <div class="contact-item"><i class="fab fa-github"></i> <a href="https://github.com/syed-zaki-reza"
+                        target="_blank">github.com/syed-zaki-reza</a></div>
+            </div>
 
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-bolt"></i> Core Skills</h2>
-            <div>
-                <span class="skill-chip">Requirement Analysis</span>
-                <span class="skill-chip">Technology Roadmapping</span>
-                <span class="skill-chip">SDLC</span>
-                <span class="skill-chip">Visual Storytelling</span>
-                <span class="skill-chip">Wireframe Mockups</span>
-                <span class="skill-chip">UAT/QA</span>
-                <span class="skill-chip">Agile Development</span>
-                <span class="skill-chip">HLD/LLD</span>
-                <span class="skill-chip">Cross-Functional Comm</span>
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-bolt"></i> Core Skills</h2>
+                <div>
+                    <span class="skill-chip">Requirement Analysis</span>
+                    <span class="skill-chip">Technology Roadmapping</span>
+                    <span class="skill-chip">SDLC</span>
+                    <span class="skill-chip">Visual Storytelling</span>
+                    <span class="skill-chip">Wireframe Mockups</span>
+                    <span class="skill-chip">UAT/QA</span>
+                    <span class="skill-chip">Agile Development</span>
+                    <span class="skill-chip">HLD/LLD</span>
+                    <span class="skill-chip">Cross-Functional Comm</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-code"></i> Technical</h2>
+                <ul class="mini-list">
+                    <li>Python, HTML/CSS, SQL</li>
+                    <li>Java, C, Git Version Control</li>
+                    <li>Network Routing & Switching</li>
+                    <li>Public Cloud Architecture</li>
+                    <li>TensorFlow, AutoCAD, IoT</li>
+                    <li>WordPress Development</li>
+                    <li>Unity3D (AR/VR/MR)</li>
+                    <li>Basic Linux, MATLAB</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-globe"></i> Languages</h2>
+                <ul class="mini-list">
+                    <li>English: IELTS 7.0 (CEFR C1)</li>
+                    <li>Bengali: Native</li>
+                </ul>
             </div>
         </div>
 
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-code"></i> Technical</h2>
-            <ul class="mini-list">
-                <li>Python, HTML/CSS, SQL</li>
-                <li>Java, C, Git Version Control</li>
-                <li>Network Routing & Switching</li>
-                <li>Public Cloud Architecture</li>
-                <li>TensorFlow, AutoCAD, IoT</li>
-                <li>WordPress Development</li>
-                <li>Unity3D (AR/VR/MR)</li>
-                <li>Basic Linux, MATLAB</li>
-            </ul>
+        <!-- MIDDLE COLUMN -->
+        <div class="col-middle">
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-user-tie"></i> Objective & Profile</h2>
+                <p class="summary">
+                    Dynamic Product Manager bridging engineering background and cross-functional leadership. Expert in
+                    translating business needs into Software Requirement Specifications (SRS), leading Agile product
+                    development, and delivering high-stakes enterprise systems. Passionate about product lifecycle
+                    execution, system architecture, and enforcing strict documentation standards. Proven in critical
+                    digital transformations including National Election RMS and proprietary ISP SaaS.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <div>
+                            <div class="exp-title">Product Manager, Technical Department</div>
+                            <div class="exp-company">Penta Global Ltd.</div>
+                        </div>
+                        <div class="exp-date">Sep 2025 – Present</div>
+                    </div>
+                    <div class="exp-desc">
+                        <span class="project-tag">ISP SaaS Suite</span>
+                        <span class="project-tag">Voxcruit AI</span>
+                        <ul>
+                            <li>Direct full SDLC for enterprise/SaaS products; align Dev, UI/UX, QA, DevOps</li>
+                            <li>Conceptualized & delivered proprietary ISP management suite to enterprise clients</li>
+                            <li>Manage 36-member cross-functional teams via Jira/GitHub; drive project velocity</li>
+                            <li>Drive AI-recruitment SaaS strategy: automated screening, JD-specific interviews</li>
+                            <li>Maintain strict CMMI documentation; craft high-level executive visual decks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <div>
+                            <div class="exp-title">Junior Product Manager, Technical Dept.</div>
+                            <div class="exp-company">Penta Global Ltd.</div>
+                        </div>
+                        <div class="exp-date">Aug 2023 – Aug 2025</div>
+                    </div>
+                    <div class="exp-desc">
+                        <span class="project-tag">Election RMS</span>
+                        <span class="project-tag">ACC ERP</span>
+                        <span class="project-tag">National Puja Tracker</span>
+                        <ul>
+                            <li>Spearheaded SRS for 6-module ACC ERP; delivered most complex module (12-member team)
+                            </li>
+                            <li>Owned Result Management System (RMS) for National Election Commission module</li>
+                            <li>Designed wireframes (Miro/Balsamiq), audited Figma designs, led strict UAT</li>
+                            <li>Built National Puja Mandap Tracker (32k+ locations) during 2024 political crisis</li>
+                            <li>Created full instructional docs & video guides for national volunteers under crisis
+                                timeline</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-header">
+                        <div>
+                            <div class="exp-title">Jr. Exec, Presales & Partner Management</div>
+                            <div class="exp-company">BRACNet Ltd.</div>
+                        </div>
+                        <div class="exp-date">Sep 2022 – Jul 2023</div>
+                    </div>
+                    <div class="exp-desc">
+                        <span class="project-tag">Govt. Connectivity</span>
+                        <span class="project-tag">BRACU Smart Campus</span>
+                        <span class="project-tag">DBL Group</span>
+                        <ul>
+                            <li>Architected bespoke ISP network solutions; authored rigorous HLD/LLD documents</li>
+                            <li>Technical lead for 12 Crore BDT Govt. Connectivity Project (Rangpur Division)</li>
+                            <li>Conducted physical audits for 30+ clients; supported 10+ major tender submissions</li>
+                            <li>Led technical sales initiation for DBL Group's premier industrial network modernization
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-globe"></i> Languages</h2>
-            <ul class="mini-list">
-                <li>English: IELTS 7.0 (CEFR C1)</li>
-                <li>Bengali: Native</li>
-            </ul>
+        <!-- RIGHT COLUMN -->
+        <div class="col-right">
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="edu-card">
+                    <div class="edu-degree">BSc in Information & Communication Engineering</div>
+                    <div class="edu-school">University of Rajshahi</div>
+                    <div class="edu-meta">Jan 2017 – Jun 2022 | CGPA: 2.98/4.00</div>
+                    <div class="edu-meta" style="margin-top:6px; color: var(--text-secondary);">
+                        <strong>Key Coursework:</strong> DBMS, Data Structures, AI, Computer Network, Digital Signal
+                        Processing, Cryptography, Telecommunication Networks.
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-degree">Higher Secondary Certificate (Science)</div>
+                    <div class="edu-school">Govt. Laboratory High School</div>
+                    <div class="edu-meta">Jul 2014 – Aug 2016 | GPA: 4.92/5.00</div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-degree">Secondary School Certificate (Science)</div>
+                    <div class="edu-school">Armanitola Govt. High School</div>
+                    <div class="edu-meta">Jan 2012 – May 2014 | GPA: 5.00/5.00</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
+                <div class="cert-item"><i class="fas fa-check"></i> CCNA & HCIA (Routing & Switching)</div>
+                <div class="cert-item"><i class="fas fa-check"></i> Fortinet NSE 1, 2, 3</div>
+                <div class="cert-item"><i class="fas fa-check"></i> Sophos Firewall v19.0 Engineer</div>
+                <div class="cert-item"><i class="fas fa-check"></i> Cambium Networks (cnMaestro X, cnPilot)</div>
+                <div class="cert-item"><i class="fas fa-check"></i> Kaspersky Fraud Prevention & EDR Presales</div>
+                <div class="cert-item"><i class="fas fa-check"></i> Atlona AV over IP Specialist</div>
+                <div class="cert-item"><i class="fas fa-check"></i> WordPress Design & Dev (LEDP)</div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-trophy"></i> Awards</h2>
+                <div class="award-item"><strong>1st Runner-Up Team, Hult Prize 2020</strong><br><span
+                        style="color:var(--text-muted);font-size:8px">Led IoT & Blockchain secure food supply chain
+                        solution.</span></div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title"><i class="fas fa-users"></i> Leadership & Vol.</h2>
+                <ul class="mini-list">
+                    <li>Vice-Chair, IEEE RU Student Branch</li>
+                    <li>Ambassador, IoT For Bangladesh</li>
+                    <li>Brand Manager, SERC</li>
+                    <li>Volunteer, Fire Service & Civil Defence</li>
+                    <li>Petrol Leader, Scout Group Armanitola</li>
+                </ul>
+            </div>
+
+            <div class="section" style="margin-top: 2px;">
+                <h2 class="section-title"><i class="fas fa-user-friends"></i> References</h2>
+                <div class="ref-item">
+                    <div class="ref-name">Dr. Dipankar Das</div>
+                    <div class="ref-role">Professor, ICE, Univ. of Rajshahi</div>
+                    <div class="ref-contact">dipankar@ru.ac.bd | +8801732000000</div>
+                </div>
+                <div class="ref-item">
+                    <div class="ref-name">Md. Nazmul Huda</div>
+                    <div class="ref-role">Tech Lead, Penta Global Ltd.</div>
+                    <div class="ref-contact">nazmulfarhan@gmail.com</div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- MIDDLE COLUMN -->
-    <div class="col-middle">
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-user-tie"></i> Objective & Profile</h2>
-            <p class="summary">
-                Dynamic Product Manager bridging engineering background and cross-functional leadership. Expert in translating business needs into Software Requirement Specifications (SRS), leading Agile product development, and delivering high-stakes enterprise systems. Passionate about product lifecycle execution, system architecture, and enforcing strict documentation standards. Proven in critical digital transformations including National Election RMS and proprietary ISP SaaS.
-            </p>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
-            
-            <div class="exp-item">
-                <div class="exp-header">
-                    <div>
-                        <div class="exp-title">Product Manager, Technical Department</div>
-                        <div class="exp-company">Penta Global Ltd.</div>
-                    </div>
-                    <div class="exp-date">Sep 2025 – Present</div>
-                </div>
-                <div class="exp-desc">
-                    <span class="project-tag">ISP SaaS Suite</span>
-                    <span class="project-tag">Voxcruit AI</span>
-                    <ul>
-                        <li>Direct full SDLC for enterprise/SaaS products; align Dev, UI/UX, QA, DevOps</li>
-                        <li>Conceptualized & delivered proprietary ISP management suite to enterprise clients</li>
-                        <li>Manage 36-member cross-functional teams via Jira/GitHub; drive project velocity</li>
-                        <li>Drive AI-recruitment SaaS strategy: automated screening, JD-specific interviews</li>
-                        <li>Maintain strict CMMI documentation; craft high-level executive visual decks</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="exp-item">
-                <div class="exp-header">
-                    <div>
-                        <div class="exp-title">Junior Product Manager, Technical Dept.</div>
-                        <div class="exp-company">Penta Global Ltd.</div>
-                    </div>
-                    <div class="exp-date">Aug 2023 – Aug 2025</div>
-                </div>
-                <div class="exp-desc">
-                    <span class="project-tag">Election RMS</span>
-                    <span class="project-tag">ACC ERP</span>
-                    <span class="project-tag">National Puja Tracker</span>
-                    <ul>
-                        <li>Spearheaded SRS for 6-module ACC ERP; delivered most complex module (12-member team)</li>
-                        <li>Owned Result Management System (RMS) for National Election Commission module</li>
-                        <li>Designed wireframes (Miro/Balsamiq), audited Figma designs, led strict UAT</li>
-                        <li>Built National Puja Mandap Tracker (32k+ locations) during 2024 political crisis</li>
-                        <li>Created full instructional docs & video guides for national volunteers under crisis timeline</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="exp-item">
-                <div class="exp-header">
-                    <div>
-                        <div class="exp-title">Jr. Exec, Presales & Partner Management</div>
-                        <div class="exp-company">BRACNet Ltd.</div>
-                    </div>
-                    <div class="exp-date">Sep 2022 – Jul 2023</div>
-                </div>
-                <div class="exp-desc">
-                    <span class="project-tag">Govt. Connectivity</span>
-                    <span class="project-tag">BRACU Smart Campus</span>
-                    <span class="project-tag">DBL Group</span>
-                    <ul>
-                        <li>Architected bespoke ISP network solutions; authored rigorous HLD/LLD documents</li>
-                        <li>Technical lead for 12 Crore BDT Govt. Connectivity Project (Rangpur Division)</li>
-                        <li>Conducted physical audits for 30+ clients; supported 10+ major tender submissions</li>
-                        <li>Led technical sales initiation for DBL Group's premier industrial network modernization</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- RIGHT COLUMN -->
-    <div class="col-right">
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
-            <div class="edu-card">
-                <div class="edu-degree">BSc in Information & Communication Engineering</div>
-                <div class="edu-school">University of Rajshahi</div>
-                <div class="edu-meta">Jan 2017 – Jun 2022 | CGPA: 2.98/4.00</div>
-                <div class="edu-meta" style="margin-top:6px; color: var(--text-secondary);">
-                    <strong>Key Coursework:</strong> DBMS, Data Structures, AI, Computer Network, Digital Signal Processing, Cryptography, Telecommunication Networks.
-                </div>
-            </div>
-            <div class="edu-card">
-                <div class="edu-degree">Higher Secondary Certificate (Science)</div>
-                <div class="edu-school">Govt. Laboratory High School</div>
-                <div class="edu-meta">Jul 2014 – Aug 2016 | GPA: 4.92/5.00</div>
-            </div>
-            <div class="edu-card">
-                <div class="edu-degree">Secondary School Certificate (Science)</div>
-                <div class="edu-school">Armanitola Govt. High School</div>
-                <div class="edu-meta">Jan 2012 – May 2014 | GPA: 5.00/5.00</div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-certificate"></i> Certifications</h2>
-            <div class="cert-item"><i class="fas fa-check"></i> CCNA & HCIA (Routing & Switching)</div>
-            <div class="cert-item"><i class="fas fa-check"></i> Fortinet NSE 1, 2, 3</div>
-            <div class="cert-item"><i class="fas fa-check"></i> Sophos Firewall v19.0 Engineer</div>
-            <div class="cert-item"><i class="fas fa-check"></i> Cambium Networks (cnMaestro X, cnPilot)</div>
-            <div class="cert-item"><i class="fas fa-check"></i> Kaspersky Fraud Prevention & EDR Presales</div>
-            <div class="cert-item"><i class="fas fa-check"></i> Atlona AV over IP Specialist</div>
-            <div class="cert-item"><i class="fas fa-check"></i> WordPress Design & Dev (LEDP)</div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-trophy"></i> Awards</h2>
-            <div class="award-item"><strong>1st Runner-Up Team, Hult Prize 2020</strong><br><span style="color:var(--text-muted);font-size:8px">Led IoT & Blockchain secure food supply chain solution.</span></div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title"><i class="fas fa-users"></i> Leadership & Vol.</h2>
-            <ul class="mini-list">
-                <li>Vice-Chair, IEEE RU Student Branch</li>
-                <li>Ambassador, IoT For Bangladesh</li>
-                <li>Brand Manager, SERC</li>
-                <li>Volunteer, Fire Service & Civil Defence</li>
-                <li>Petrol Leader, Scout Group Armanitola</li>
-            </ul>
-        </div>
-
-        <div class="section" style="margin-top: 2px;">
-            <h2 class="section-title"><i class="fas fa-user-friends"></i> References</h2>
-            <div class="ref-item">
-                <div class="ref-name">Dr. Dipankar Das</div>
-                <div class="ref-role">Professor, ICE, Univ. of Rajshahi</div>
-                <div class="ref-contact">dipankar@ru.ac.bd | +8801732000000</div>
-            </div>
-            <div class="ref-item">
-                <div class="ref-name">Md. Nazmul Huda</div>
-                <div class="ref-role">Tech Lead, Penta Global Ltd.</div>
-                <div class="ref-contact">nazmulfarhan@gmail.com</div>
-            </div>
-        </div>
-    </div>
-</div>
-
-  <script>
-    if (window.location.search.includes('print=true')) {
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          window.print();
-        }, 500);
-      });
-      window.addEventListener('afterprint', () => {
-        window.close();
-      });
-    }
-  </script>
+    <script>
+        if (window.location.search.includes('print=true')) {
+            window.addEventListener('load', () => {
+                setTimeout(() => {
+                    window.print();
+                }, 500);
+            });
+            window.addEventListener('afterprint', () => {
+                window.close();
+            });
+        }
+    </script>
 </body>
+
 </html>
